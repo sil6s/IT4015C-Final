@@ -1,0 +1,5 @@
+adjustment,detail,reason
+overlap_start_date,2016-01-01,I used the latest first-available date across required monthly variables.
+overlap_end_date,2026-02-01,I used the earliest last-available date across required monthly variables.
+excluded_incomplete_months,2025-10-01,I excluded months that did not have complete required-variable coverage.
+analysis_row_count,121,I used complete aligned monthly rows for the final analysis dataset.

@@ -1,0 +1,5 @@
+artifact,artifact_type,status
+/Users/silascurry/Documents/New project/Project_Data/04_merged_data/master_monthly_dataset.csv,merged_dataset,created
+/Users/silascurry/Documents/New project/Project_Data/04_merged_data/pre_analysis_dataset.csv,pre_analysis_dataset_csv,created
+/Users/silascurry/Documents/New project/Project_Data/04_merged_data/pre_analysis_dataset.xlsx,pre_analysis_dataset_xlsx,created
+/Users/silascurry/Documents/New project/Project_Data/10_qa_validation/validation_summary.csv,validation_summary,created

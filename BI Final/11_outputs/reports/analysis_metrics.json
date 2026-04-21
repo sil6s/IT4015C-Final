@@ -1,0 +1,116 @@
+{
+  "start_date": "2016-01-01",
+  "end_date": "2026-02-01",
+  "row_count": 121,
+  "latest_values": {
+    "cpi_overall": {
+      "first_date": "2016-01-01",
+      "latest_date": "2026-02-01",
+      "first_value": 237.652,
+      "latest_value": 327.46,
+      "percent_change_first_to_latest": 37.78970932287547,
+      "latest_index_2016_100": 136.43858732355
+    },
+    "cpi_food": {
+      "first_date": "2016-01-01",
+      "latest_date": "2026-02-01",
+      "first_value": 248.353,
+      "latest_value": 346.622,
+      "percent_change_first_to_latest": 39.568275800976835,
+      "latest_index_2016_100": 139.80376550811775
+    },
+    "cpi_shelter": {
+      "first_date": "2016-01-01",
+      "latest_date": "2026-02-01",
+      "first_value": 283.714,
+      "latest_value": 422.942,
+      "percent_change_first_to_latest": 49.07336261164412,
+      "latest_index_2016_100": 146.73614749178617
+    },
+    "cpi_transportation": {
+      "first_date": "2016-01-01",
+      "latest_date": "2026-02-01",
+      "first_value": 192.648,
+      "latest_value": 273.766,
+      "percent_change_first_to_latest": 42.10684772227069,
+      "latest_index_2016_100": 140.48497625579174
+    },
+    "pce_total": {
+      "first_date": "2016-01-01",
+      "latest_date": "2026-02-01",
+      "first_value": 12478.0,
+      "latest_value": 21615.1,
+      "percent_change_first_to_latest": 73.22567719185767,
+      "latest_index_2016_100": 169.83856963820583
+    },
+    "disposable_income": {
+      "first_date": "2016-01-01",
+      "latest_date": "2026-02-01",
+      "first_value": 13767.2,
+      "latest_value": 23429.8,
+      "percent_change_first_to_latest": 70.18565866697656,
+      "latest_index_2016_100": 168.21018196002785
+    }
+  },
+  "yoy_summary": {
+    "cpi_overall": {
+      "variable": "cpi_overall_yoy_pct",
+      "count": 109.0,
+      "mean": 3.334127273794942,
+      "std": 2.0950913204633546,
+      "min": 0.1982013035848551,
+      "max": 8.979361103105798
+    },
+    "cpi_food": {
+      "variable": "cpi_food_yoy_pct",
+      "count": 109.0,
+      "mean": 3.595946202516865,
+      "std": 2.8653172695012583,
+      "min": -0.11596397063856623,
+      "max": 11.39170639045195
+    },
+    "cpi_shelter": {
+      "variable": "cpi_shelter_yoy_pct",
+      "count": 109.0,
+      "mean": 4.146172276078456,
+      "std": 1.6732862705421718,
+      "min": 1.4302752378398953,
+      "max": 8.164643933532712
+    },
+    "cpi_transportation": {
+      "variable": "cpi_transportation_yoy_pct",
+      "count": 109.0,
+      "mean": 3.974700224610892,
+      "std": 7.4061828966869285,
+      "min": -10.874523637496992,
+      "max": 22.599335083758287
+    },
+    "pce_total": {
+      "variable": "pce_total_yoy_pct",
+      "count": 109.0,
+      "mean": 5.805616683591359,
+      "std": 4.953857620233889,
+      "min": -14.281315605318401,
+      "max": 29.94726186199914
+    },
+    "disposable_income": {
+      "variable": "disposable_income_yoy_pct",
+      "count": 109.0,
+      "mean": 5.747611450034665,
+      "std": 4.487146485550302,
+      "min": -15.94533548275454,
+      "max": 34.14088843278114
+    }
+  },
+  "strongest_level_corr_with_pce": {
+    "cpi_overall": 0.9944616614792742,
+    "cpi_shelter": 0.986261121968822,
+    "cpi_food": 0.9859703781069412
+  },
+  "strongest_yoy_corr_with_pce_growth": {
+    "cpi_transportation_yoy_pct": 0.7903073087446121,
+    "cpi_overall_yoy_pct": 0.6601206619746901,
+    "cpi_food_yoy_pct": 0.2840512628411138
+  },
+  "scatter_correlation": 0.6601206619746901
+}

@@ -1,0 +1,24 @@
+dataset_id,display_name,status,row_count,column_count,date_min,date_max,duplicate_dates,missing_value_count,potential_missing_months_within_range,missing_required_columns,expected_frequency,notes,validation_area
+cpi_overall,CPI Overall,PASS,122,8,2016-01-01,2026-03-01,0,0,1,,monthly,"I treat REVIEW as a prompt for inspection, not as an analytical result.",cleaned_dataset
+cpi_food,CPI Food,PASS,122,8,2016-01-01,2026-03-01,0,0,1,,monthly,"I treat REVIEW as a prompt for inspection, not as an analytical result.",cleaned_dataset
+cpi_shelter,CPI Shelter,PASS,122,8,2016-01-01,2026-03-01,0,0,1,,monthly,"I treat REVIEW as a prompt for inspection, not as an analytical result.",cleaned_dataset
+cpi_transportation,CPI Transportation,PASS,122,8,2016-01-01,2026-03-01,0,0,1,,monthly,"I treat REVIEW as a prompt for inspection, not as an analytical result.",cleaned_dataset
+pce_price_index,PCE Price Index / PCECC96,PASS,316,8,1947-01-01,2025-10-01,0,0,630,,quarterly_in_current_file,"I treat REVIEW as a prompt for inspection, not as an analytical result.",cleaned_dataset
+pce_total,PCE Total,PASS,806,8,1959-01-01,2026-02-01,0,0,0,,monthly,"I treat REVIEW as a prompt for inspection, not as an analytical result.",cleaned_dataset
+disposable_income,Disposable Personal Income,PASS,806,8,1959-01-01,2026-02-01,0,0,0,,monthly,"I treat REVIEW as a prompt for inspection, not as an analytical result.",cleaned_dataset
+fed_funds_rate,Federal Funds Rate,PASS,861,8,1954-07-01,2026-03-01,0,0,0,,monthly,"I treat REVIEW as a prompt for inspection, not as an analytical result.",cleaned_dataset
+consumer_sentiment,Consumer Sentiment,PASS,880,8,1952-11-01,2026-02-01,0,210,0,,monthly,"I treat REVIEW as a prompt for inspection, not as an analytical result.",cleaned_dataset
+unemployment_rate,Unemployment Rate,PASS,939,8,1948-01-01,2026-03-01,0,1,0,,monthly,"I treat REVIEW as a prompt for inspection, not as an analytical result.",cleaned_dataset
+merged_dataset_has_rows,,PASS,,,,,,,,,,I found 943 rows in the merged dataset.,merged_dataset
+merged_dataset_has_date,,PASS,,,,,,,,,,I confirmed whether the merged dataset contains the date key.,merged_dataset
+merged_dataset_duplicate_dates,,PASS,,,,,,,,,,I found 0 duplicate merged dates.,merged_dataset
+merged_column_cpi_overall,,REVIEW,,,,,,,,,,I found 821 missing values in cpi_overall after the outer merge.,merged_dataset
+merged_column_cpi_food,,REVIEW,,,,,,,,,,I found 821 missing values in cpi_food after the outer merge.,merged_dataset
+merged_column_cpi_shelter,,REVIEW,,,,,,,,,,I found 821 missing values in cpi_shelter after the outer merge.,merged_dataset
+merged_column_cpi_transportation,,REVIEW,,,,,,,,,,I found 821 missing values in cpi_transportation after the outer merge.,merged_dataset
+merged_column_pce_price_index,,REVIEW,,,,,,,,,,I found 627 missing values in pce_price_index after the outer merge.,merged_dataset
+merged_column_pce_total,,REVIEW,,,,,,,,,,I found 137 missing values in pce_total after the outer merge.,merged_dataset
+merged_column_disposable_income,,REVIEW,,,,,,,,,,I found 137 missing values in disposable_income after the outer merge.,merged_dataset
+merged_column_fed_funds_rate,,REVIEW,,,,,,,,,,I found 82 missing values in fed_funds_rate after the outer merge.,merged_dataset
+merged_column_consumer_sentiment,,REVIEW,,,,,,,,,,I found 273 missing values in consumer_sentiment after the outer merge.,merged_dataset
+merged_column_unemployment_rate,,REVIEW,,,,,,,,,,I found 5 missing values in unemployment_rate after the outer merge.,merged_dataset

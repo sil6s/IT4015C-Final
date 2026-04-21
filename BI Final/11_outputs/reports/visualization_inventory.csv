@@ -1,0 +1,7 @@
+chart_id,file_path,purpose
+inflation_trends,/Users/silascurry/Documents/New project/Project_Data/11_outputs/charts/chart_01_inflation_trends.png,Compare CPI overall with CPI food, shelter, and transportation over time.
+consumer_spending,/Users/silascurry/Documents/New project/Project_Data/11_outputs/charts/chart_02_consumer_spending_pce.png,Show PCE total across the aligned analysis period.
+income_vs_spending,/Users/silascurry/Documents/New project/Project_Data/11_outputs/charts/chart_03_income_vs_spending.png,Compare disposable personal income with PCE total.
+inflation_vs_spending_scatter,/Users/silascurry/Documents/New project/Project_Data/11_outputs/charts/chart_04_inflation_vs_spending_scatter.png,Compare CPI overall YoY growth with PCE total YoY growth.
+economic_context,/Users/silascurry/Documents/New project/Project_Data/11_outputs/charts/chart_05_economic_context.png,Show unemployment, federal funds rate, and consumer sentiment as context.
+indexed_comparison,/Users/silascurry/Documents/New project/Project_Data/11_outputs/charts/chart_06_indexed_comparison.png,Compare CPI overall, PCE total, and disposable income on a 2016-base index.

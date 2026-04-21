@@ -1,0 +1,12 @@
+column_name,missing_count,non_missing_count,missing_percent
+date,0,943,0.0
+cpi_overall,821,122,87.06
+cpi_food,821,122,87.06
+cpi_shelter,821,122,87.06
+cpi_transportation,821,122,87.06
+pce_price_index,627,316,66.49
+pce_total,137,806,14.53
+disposable_income,137,806,14.53
+fed_funds_rate,82,861,8.7
+consumer_sentiment,273,670,28.95
+unemployment_rate,5,938,0.53

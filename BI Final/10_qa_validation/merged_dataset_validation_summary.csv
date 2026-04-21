@@ -1,0 +1,14 @@
+check_name,status,detail
+merged_dataset_has_rows,PASS,I found 943 rows in the merged dataset.
+merged_dataset_has_date,PASS,I confirmed whether the merged dataset contains the date key.
+merged_dataset_duplicate_dates,PASS,I found 0 duplicate merged dates.
+merged_column_cpi_overall,REVIEW,I found 821 missing values in cpi_overall after the outer merge.
+merged_column_cpi_food,REVIEW,I found 821 missing values in cpi_food after the outer merge.
+merged_column_cpi_shelter,REVIEW,I found 821 missing values in cpi_shelter after the outer merge.
+merged_column_cpi_transportation,REVIEW,I found 821 missing values in cpi_transportation after the outer merge.
+merged_column_pce_price_index,REVIEW,I found 627 missing values in pce_price_index after the outer merge.
+merged_column_pce_total,REVIEW,I found 137 missing values in pce_total after the outer merge.
+merged_column_disposable_income,REVIEW,I found 137 missing values in disposable_income after the outer merge.
+merged_column_fed_funds_rate,REVIEW,I found 82 missing values in fed_funds_rate after the outer merge.
+merged_column_consumer_sentiment,REVIEW,I found 273 missing values in consumer_sentiment after the outer merge.
+merged_column_unemployment_rate,REVIEW,I found 5 missing values in unemployment_rate after the outer merge.

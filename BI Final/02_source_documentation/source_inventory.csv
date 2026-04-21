@@ -1,0 +1,11 @@
+dataset_id,display_name,raw_file,source_organization,format,frequency,project_role,status
+cpi_overall,CPI Overall,01_raw_data/inflation/CPI_Overall.xlsx,U.S. Bureau of Labor Statistics,Excel,Monthly,Primary inflation variable,Downloaded
+cpi_food,CPI Food,01_raw_data/inflation/CPI_Food.xlsx,U.S. Bureau of Labor Statistics,Excel,Monthly,Supporting inflation detail,Downloaded
+cpi_shelter,CPI Shelter,01_raw_data/inflation/CPI_Shelter.xlsx,U.S. Bureau of Labor Statistics,Excel,Monthly,Supporting inflation detail,Downloaded
+cpi_transportation,CPI Transportation,01_raw_data/inflation/CPI_Transportation.xlsx,U.S. Bureau of Labor Statistics,Excel,Monthly,Supporting inflation detail,Downloaded
+pce_price_index,PCE Price Index / PCECC96,01_raw_data/inflation/PCE_Price_Index.csv,Federal Reserve Economic Data / BEA series,CSV,Quarterly in current file,Supporting inflation comparison variable,Downloaded
+pce_total,PCE Total,01_raw_data/spending/PCE_Total.csv,Federal Reserve Economic Data / BEA series,CSV,Monthly,Primary spending variable,Downloaded
+disposable_income,Disposable Personal Income,01_raw_data/income/Disposable_Income.csv,Federal Reserve Economic Data / BEA series,CSV,Monthly,Supporting income context,Downloaded
+fed_funds_rate,Federal Funds Rate,01_raw_data/economic_conditions/Interest_Rate_FedFunds.csv,Federal Reserve Economic Data / Federal Reserve source series,CSV,Monthly,Supporting monetary policy context,Downloaded
+consumer_sentiment,Consumer Sentiment,01_raw_data/economic_conditions/Consumer_Sentiment.csv,Federal Reserve Economic Data / University of Michigan source series,CSV,Monthly,Supporting household context,Downloaded
+unemployment_rate,Unemployment Rate,01_raw_data/economic_conditions/Unemployment_Rate.csv,Federal Reserve Economic Data / BLS source series,CSV,Monthly,Supporting labor market context,Downloaded

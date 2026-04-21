@@ -1,0 +1,11 @@
+dataset_id,display_name,status,row_count,column_count,date_min,date_max,duplicate_dates,missing_value_count,potential_missing_months_within_range,missing_required_columns,expected_frequency,notes
+cpi_overall,CPI Overall,PASS,122,8,2016-01-01,2026-03-01,0,0,1,,monthly,"I treat REVIEW as a prompt for inspection, not as an analytical result."
+cpi_food,CPI Food,PASS,122,8,2016-01-01,2026-03-01,0,0,1,,monthly,"I treat REVIEW as a prompt for inspection, not as an analytical result."
+cpi_shelter,CPI Shelter,PASS,122,8,2016-01-01,2026-03-01,0,0,1,,monthly,"I treat REVIEW as a prompt for inspection, not as an analytical result."
+cpi_transportation,CPI Transportation,PASS,122,8,2016-01-01,2026-03-01,0,0,1,,monthly,"I treat REVIEW as a prompt for inspection, not as an analytical result."
+pce_price_index,PCE Price Index / PCECC96,PASS,316,8,1947-01-01,2025-10-01,0,0,630,,quarterly_in_current_file,"I treat REVIEW as a prompt for inspection, not as an analytical result."
+pce_total,PCE Total,PASS,806,8,1959-01-01,2026-02-01,0,0,0,,monthly,"I treat REVIEW as a prompt for inspection, not as an analytical result."
+disposable_income,Disposable Personal Income,PASS,806,8,1959-01-01,2026-02-01,0,0,0,,monthly,"I treat REVIEW as a prompt for inspection, not as an analytical result."
+fed_funds_rate,Federal Funds Rate,PASS,861,8,1954-07-01,2026-03-01,0,0,0,,monthly,"I treat REVIEW as a prompt for inspection, not as an analytical result."
+consumer_sentiment,Consumer Sentiment,PASS,880,8,1952-11-01,2026-02-01,0,210,0,,monthly,"I treat REVIEW as a prompt for inspection, not as an analytical result."
+unemployment_rate,Unemployment Rate,PASS,939,8,1948-01-01,2026-03-01,0,1,0,,monthly,"I treat REVIEW as a prompt for inspection, not as an analytical result."

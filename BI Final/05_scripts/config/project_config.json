@@ -1,0 +1,111 @@
+{
+  "project_name": "inflation_spending_integrated_analysis",
+  "date_column": "date",
+  "raw_data_dir": "../01_raw_data",
+  "cleaned_data_dir": "../03_cleaned_data",
+  "merged_data_dir": "../04_merged_data",
+  "qa_dir": "../10_qa_validation",
+  "log_dir": "../11_outputs/logs",
+  "datasets": [
+    {
+      "dataset_id": "cpi_overall",
+      "display_name": "CPI Overall",
+      "relative_path": "inflation/CPI_Overall.xlsx",
+      "source_format": "bls_cpi_excel",
+      "source_series": "CUSR0000SA0",
+      "value_column": "cpi_overall",
+      "expected_frequency": "monthly",
+      "role": "primary_inflation_variable"
+    },
+    {
+      "dataset_id": "cpi_food",
+      "display_name": "CPI Food",
+      "relative_path": "inflation/CPI_Food.xlsx",
+      "source_format": "bls_cpi_excel",
+      "source_series": "CUSR0000SAF1",
+      "value_column": "cpi_food",
+      "expected_frequency": "monthly",
+      "role": "supporting_inflation_detail"
+    },
+    {
+      "dataset_id": "cpi_shelter",
+      "display_name": "CPI Shelter",
+      "relative_path": "inflation/CPI_Shelter.xlsx",
+      "source_format": "bls_cpi_excel",
+      "source_series": "CUSR0000SAH1",
+      "value_column": "cpi_shelter",
+      "expected_frequency": "monthly",
+      "role": "supporting_inflation_detail"
+    },
+    {
+      "dataset_id": "cpi_transportation",
+      "display_name": "CPI Transportation",
+      "relative_path": "inflation/CPI_Transportation.xlsx",
+      "source_format": "bls_cpi_excel",
+      "source_series": "CUSR0000SAT",
+      "value_column": "cpi_transportation",
+      "expected_frequency": "monthly",
+      "role": "supporting_inflation_detail"
+    },
+    {
+      "dataset_id": "pce_price_index",
+      "display_name": "PCE Price Index / PCECC96",
+      "relative_path": "inflation/PCE_Price_Index.csv",
+      "source_format": "fred_csv",
+      "source_series": "PCECC96",
+      "value_column": "pce_price_index",
+      "expected_frequency": "quarterly_in_current_file",
+      "role": "supporting_inflation_comparison"
+    },
+    {
+      "dataset_id": "pce_total",
+      "display_name": "PCE Total",
+      "relative_path": "spending/PCE_Total.csv",
+      "source_format": "fred_csv",
+      "source_series": "PCE",
+      "value_column": "pce_total",
+      "expected_frequency": "monthly",
+      "role": "primary_spending_variable"
+    },
+    {
+      "dataset_id": "disposable_income",
+      "display_name": "Disposable Personal Income",
+      "relative_path": "income/Disposable_Income.csv",
+      "source_format": "fred_csv",
+      "source_series": "DSPI",
+      "value_column": "disposable_income",
+      "expected_frequency": "monthly",
+      "role": "supporting_income_context"
+    },
+    {
+      "dataset_id": "fed_funds_rate",
+      "display_name": "Federal Funds Rate",
+      "relative_path": "economic_conditions/Interest_Rate_FedFunds.csv",
+      "source_format": "fred_csv",
+      "source_series": "FEDFUNDS",
+      "value_column": "fed_funds_rate",
+      "expected_frequency": "monthly",
+      "role": "supporting_monetary_policy_context"
+    },
+    {
+      "dataset_id": "consumer_sentiment",
+      "display_name": "Consumer Sentiment",
+      "relative_path": "economic_conditions/Consumer_Sentiment.csv",
+      "source_format": "fred_csv",
+      "source_series": "UMCSENT",
+      "value_column": "consumer_sentiment",
+      "expected_frequency": "monthly",
+      "role": "supporting_household_context"
+    },
+    {
+      "dataset_id": "unemployment_rate",
+      "display_name": "Unemployment Rate",
+      "relative_path": "economic_conditions/Unemployment_Rate.csv",
+      "source_format": "fred_csv",
+      "source_series": "UNRATE",
+      "value_column": "unemployment_rate",
+      "expected_frequency": "monthly",
+      "role": "supporting_labor_market_context"
+    }
+  ]
+}

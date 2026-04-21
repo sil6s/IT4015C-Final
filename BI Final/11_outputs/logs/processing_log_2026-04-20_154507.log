@@ -1,0 +1,40 @@
+2026-04-20 15:45:07 | INFO | root | I started a new data preparation pipeline run.
+2026-04-20 15:45:07 | INFO | root | I am writing the processing log to /Users/silascurry/Documents/New project/Project_Data/11_outputs/logs/processing_log_2026-04-20_154507.log
+2026-04-20 15:45:07 | INFO | __main__ | I loaded project config for inflation_spending_integrated_analysis.
+2026-04-20 15:45:07 | INFO | __main__ | I am reading raw data from /Users/silascurry/Documents/New project/Project_Data/01_raw_data.
+2026-04-20 15:45:07 | INFO | src.data_loading | I am loading CPI Overall from /Users/silascurry/Documents/New project/Project_Data/01_raw_data/inflation/CPI_Overall.xlsx
+2026-04-20 15:45:07 | INFO | __main__ | I exported 132 cleaned rows to /Users/silascurry/Documents/New project/Project_Data/03_cleaned_data/cleaned_cpi_overall.csv.
+2026-04-20 15:45:07 | INFO | src.data_loading | I am loading CPI Food from /Users/silascurry/Documents/New project/Project_Data/01_raw_data/inflation/CPI_Food.xlsx
+2026-04-20 15:45:07 | INFO | __main__ | I exported 132 cleaned rows to /Users/silascurry/Documents/New project/Project_Data/03_cleaned_data/cleaned_cpi_food.csv.
+2026-04-20 15:45:07 | INFO | src.data_loading | I am loading CPI Shelter from /Users/silascurry/Documents/New project/Project_Data/01_raw_data/inflation/CPI_Shelter.xlsx
+2026-04-20 15:45:07 | INFO | __main__ | I exported 132 cleaned rows to /Users/silascurry/Documents/New project/Project_Data/03_cleaned_data/cleaned_cpi_shelter.csv.
+2026-04-20 15:45:07 | INFO | src.data_loading | I am loading CPI Transportation from /Users/silascurry/Documents/New project/Project_Data/01_raw_data/inflation/CPI_Transportation.xlsx
+2026-04-20 15:45:07 | INFO | __main__ | I exported 132 cleaned rows to /Users/silascurry/Documents/New project/Project_Data/03_cleaned_data/cleaned_cpi_transportation.csv.
+2026-04-20 15:45:07 | INFO | src.data_loading | I am loading PCE Price Index / PCECC96 from /Users/silascurry/Documents/New project/Project_Data/01_raw_data/inflation/PCE_Price_Index.csv
+2026-04-20 15:45:07 | INFO | __main__ | I exported 316 cleaned rows to /Users/silascurry/Documents/New project/Project_Data/03_cleaned_data/cleaned_pce_price_index.csv.
+2026-04-20 15:45:07 | INFO | src.data_loading | I am loading PCE Total from /Users/silascurry/Documents/New project/Project_Data/01_raw_data/spending/PCE_Total.csv
+2026-04-20 15:45:07 | INFO | __main__ | I exported 806 cleaned rows to /Users/silascurry/Documents/New project/Project_Data/03_cleaned_data/cleaned_pce_total.csv.
+2026-04-20 15:45:07 | INFO | src.data_loading | I am loading Disposable Personal Income from /Users/silascurry/Documents/New project/Project_Data/01_raw_data/income/Disposable_Income.csv
+2026-04-20 15:45:07 | INFO | __main__ | I exported 806 cleaned rows to /Users/silascurry/Documents/New project/Project_Data/03_cleaned_data/cleaned_disposable_income.csv.
+2026-04-20 15:45:07 | INFO | src.data_loading | I am loading Federal Funds Rate from /Users/silascurry/Documents/New project/Project_Data/01_raw_data/economic_conditions/Interest_Rate_FedFunds.csv
+2026-04-20 15:45:07 | INFO | __main__ | I exported 861 cleaned rows to /Users/silascurry/Documents/New project/Project_Data/03_cleaned_data/cleaned_fed_funds_rate.csv.
+2026-04-20 15:45:07 | INFO | src.data_loading | I am loading Consumer Sentiment from /Users/silascurry/Documents/New project/Project_Data/01_raw_data/economic_conditions/Consumer_Sentiment.csv
+2026-04-20 15:45:07 | INFO | __main__ | I exported 880 cleaned rows to /Users/silascurry/Documents/New project/Project_Data/03_cleaned_data/cleaned_consumer_sentiment.csv.
+2026-04-20 15:45:07 | INFO | src.data_loading | I am loading Unemployment Rate from /Users/silascurry/Documents/New project/Project_Data/01_raw_data/economic_conditions/Unemployment_Rate.csv
+2026-04-20 15:45:07 | INFO | __main__ | I exported 939 cleaned rows to /Users/silascurry/Documents/New project/Project_Data/03_cleaned_data/cleaned_unemployment_rate.csv.
+2026-04-20 15:45:07 | INFO | src.integration | I prepared cpi_overall for merging with 132 rows.
+2026-04-20 15:45:07 | INFO | src.integration | I prepared cpi_food for merging with 132 rows.
+2026-04-20 15:45:07 | INFO | src.integration | I prepared cpi_shelter for merging with 132 rows.
+2026-04-20 15:45:07 | INFO | src.integration | I prepared cpi_transportation for merging with 132 rows.
+2026-04-20 15:45:07 | INFO | src.integration | I prepared pce_price_index for merging with 316 rows.
+2026-04-20 15:45:07 | INFO | src.integration | I prepared pce_total for merging with 806 rows.
+2026-04-20 15:45:07 | INFO | src.integration | I prepared disposable_income for merging with 806 rows.
+2026-04-20 15:45:07 | INFO | src.integration | I prepared fed_funds_rate for merging with 861 rows.
+2026-04-20 15:45:07 | INFO | src.integration | I prepared consumer_sentiment for merging with 880 rows.
+2026-04-20 15:45:07 | INFO | src.integration | I prepared unemployment_rate for merging with 939 rows.
+2026-04-20 15:45:07 | INFO | src.integration | I created the merged dataset with 952 rows and 11 columns.
+2026-04-20 15:45:07 | INFO | __main__ | I exported the merged master dataset to /Users/silascurry/Documents/New project/Project_Data/04_merged_data/master_monthly_dataset.csv.
+2026-04-20 15:45:07 | INFO | __main__ | I exported the pre-analysis dataset to /Users/silascurry/Documents/New project/Project_Data/04_merged_data/pre_analysis_dataset.csv and /Users/silascurry/Documents/New project/Project_Data/04_merged_data/pre_analysis_dataset.xlsx.
+2026-04-20 15:45:07 | INFO | src.validation | I wrote validation outputs to /Users/silascurry/Documents/New project/Project_Data/10_qa_validation
+2026-04-20 15:45:07 | INFO | __main__ | I wrote the pipeline artifact manifest.
+2026-04-20 15:45:07 | INFO | __main__ | I completed the pre-analysis data preparation pipeline.

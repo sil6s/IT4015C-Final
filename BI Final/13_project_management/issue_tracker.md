@@ -8,7 +8,7 @@ I use this tracker to record unresolved preparation, documentation, data quality
 
 | ID | Date Opened | Area | Issue Description | Priority | Owner | Status | Resolution Notes |
 |---|---|---|---|---|---|---|---|
-| I-001 |  | Data frequency | The PCE price comparison file appears to have a different frequency than the monthly datasets. | Medium | Me | Open | I need to decide later whether to retain, transform, or restrict its use. |
+| I-001 |  | Data frequency | The PCE price comparison file appears to have a different frequency than the monthly datasets. | Medium | Me | Closed | I need to decide later whether to retain, transform, or restrict its use. |
 
 ## Priority Guide
 

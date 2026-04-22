@@ -2,8 +2,8 @@
 
 **Student:** Silas Curry
 **Course:** IT4015C — Applied Business Intelligence, Section 001 (3 Credit Hours)
-**Instructor:** Tyler Woebkenberg — tyler.woebkenberg@uc.edu
-**Prerequisite:** IT2060C Database Management I
+**Instructor:** Tyler Woebkenberg
+
 
 ---
 

@@ -1,7 +1,7 @@
 # Inflation, Consumer Spending, Income, and Economic Conditions in the United States
 
 **Student:** Silas Curry
-**Course:** IT4015C — Applied Business Intelligence, Section 001 (3 Credit Hours)
+**Course:** IT4015C — Applied Business Intelligence
 **Instructor:** Tyler Woebkenberg
 
 

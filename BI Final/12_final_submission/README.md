@@ -4,7 +4,7 @@
 **Course:** IT4015C — Applied Business Intelligence
 **Instructor:** Tyler Woebkenberg
 
-# Presentation Video [Watch Video](https://mailuc-my.sharepoint.com/:v:/g/personal/currysc_mail_uc_edu/IQBK5owBYFdoTqLM_F2OVWOrASTR55iPF6KEhaSkDVgAK6g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=pVt3Xz)
+# Presentation Video [Watch Video](https://mailuc-my.sharepoint.com/:v:/g/personal/currysc_mail_uc_edu/IQBK5owBYFdoTqLM_F2OVWOrASTR55iPF6KEhaSkDVgAK6g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=TZjvzE)
 
 ---
 
